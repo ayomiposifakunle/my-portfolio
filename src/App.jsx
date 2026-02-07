@@ -2,15 +2,17 @@ import React from "react";
 import "./App.css";
 
 const webProjects = [
-  { title: "Project One", description: "A web app built with React.", link: "#" },
-  { title: "Project Two", description: "A mobile app built with React Native.", link: "#" },
-  { title: "Project Three", description: "E-commerce website.", link: "#" },
+  { title: "REACT TO-DO-LIST", description: "REACT, TAILWIND", link: "#" },
+  { title: "REACT + SUPABASE CRUD", description: "REACT, SUPABASE", link: "#" },
+  { title: "NGO WEBSITE", description: "HTML, CSS, JS, JQUERY", link: "#" },
+  { title: "E-COMMERCE", description: "HTML, CSS, JS, JQUERY, PHP, MYSQL", link: "#" },
+  { title: "WASTE MANAGEMENT (SAAS)", description: "HTML, CSS, JS, JQUERY, PHP, MYSQL", link: "#" },
 ];
 
-const marketingProjects = [
-  { title: "Campaign One", description: "Facebook Ads Campaign", link: "#" },
-  { title: "Campaign Two", description: "Instagram Content Strategy", link: "#" },
-  { title: "Campaign Three", description: "Email Marketing Automation", link: "#" },
+const teachingProjects = [
+  { title: "ABUNDANT GRACE SCHOOLS", 
+  description: "Taught HTML, CSS, JavaScript, and Scratch to students across primary and secondary levels",
+  link: "https://drive.google.com/drive/folders/1pT334rZHaZvnazxYrzqVrLTkQ2j3fX_m?usp=sharing" },
 ];
 
 export default function App() {
@@ -20,7 +22,7 @@ export default function App() {
       <header className="hero">
         <div className="hero-content">
           <h1>Hello, I'm Fakunle Ayomiposi</h1>
-          <p>Fullstack Developer & Digital Marketer</p>
+          <p>Fullstack Web & Mobile Developer </p>
           <a href="#contact" className="btn">Get in Touch</a>
         </div>
       </header>
@@ -29,8 +31,8 @@ export default function App() {
       <section className="about" id="about">
         <h2>About Me</h2>
         <p>
-          I am a passionate developer and digital marketer, building web & mobile applications
-          and crafting effective content strategies. I turn ideas into functional, beautiful products.
+        Software Developer and Coding Instructor with hands-on experience in programming fundamentals. <br />
+        Skilled in building modern software using React, React-native, and Supabase, and passionate about administrative activities. 
         </p>
       </section>
 
@@ -50,16 +52,16 @@ export default function App() {
         </div>
       </section>
 
-      {/* Digital Marketing & Content Design */}
+      {/* Teaching */}
       <section className="marketing" id="marketing">
-        <h2>Digital Marketing & Content Design</h2>
+        <h2>Teaching Projects</h2>
         <div className="project-list">
-          {marketingProjects.map((p, i) => (
+          {teachingProjects.map((p, i) => (
             <div className="project-card" key={i}>
               <h3>{p.title}</h3>
               <p>{p.description}</p>
               <a href={p.link} className="btn" target="_blank" rel="noopener noreferrer">
-                View Campaign
+                View Projects
               </a>
             </div>
           ))}
@@ -79,7 +81,7 @@ export default function App() {
 
       {/* Footer */}
       <footer>
-        <p>© 2026 Fakunle Ayomiposi. All rights reserved.</p>
+        <p>© 2026 Fakunle Ayomiposi.</p>
       </footer>
     </div>
   );
