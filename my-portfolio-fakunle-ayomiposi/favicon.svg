@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="128" fill="#09203a"/>
-  <rect x="16" y="16" width="480" height="480" rx="112" fill="none" stroke="#12d640" stroke-width="24"/>
-  <text x="220" y="325" font-family="'Poppins', 'Montserrat', 'Segoe UI', sans-serif" font-size="220" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-5">FA</text>
-  <circle cx="370" cy="305" r="28" fill="#12d640"/>
-</svg>
